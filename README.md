@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Uswa Khan — Portfolio Website
 
-## Getting Started
+A personal portfolio website for **Uswa Khan**, a CRM & Workflow Automation Specialist.  
+🔗 **Live Site:** [http://18.171.243.249](http://18.171.243.249)
 
-First, run the development server:
+---
+
+## 👩‍💻 About
+
+I'm Uswa Khan, a Computer Science student at **UET Lahore** specializing in CRM automation and workflow integrations. I help businesses streamline operations, capture leads, automate follow-ups, and connect tools — using **GoHighLevel** and **n8n**.
+
+---
+
+## 🚀 Services
+
+- **CRM Setup & Configuration** — GoHighLevel pipelines, contact management, tags & custom fields
+- **Workflow Automation** — Automated lead capture, follow-ups, reminders using n8n & GHL
+- **Business Tool Integrations** — Connecting Slack, Notion, Google Sheets via n8n
+- **Lead Capture & Follow-Up Automation** — End-to-end lead management systems
+
+---
+
+## 🛠 Tech Stack
+
+| Category | Tools |
+|---|---|
+| CRM & Automation | GoHighLevel, n8n |
+| Integrations | Slack, Notion, Google Sheets, Gmail |
+| Frontend | Next.js, Tailwind CSS |
+| Deployment | AWS EC2 |
+
+---
+
+## 📦 Running Locally
 
 ```bash
+git clone https://github.com/UswaKhan/Portfolio.git
+cd Portfolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📬 Contact
 
-## Learn More
+- **Email:** uswalohani386@gmail.com  
+- **LinkedIn:** [linkedin.com/in/uswakhan386](https://www.linkedin.com/in/uswakhan386)  
+- **Upwork:** [upwork.com/freelancers/uswa](https://www.upwork.com/freelancers/~012a9db1aef745e442)  
+- **GitHub:** [github.com/UswaKhan](https://github.com/UswaKhan)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© 2026 Uswa Khan. All rights reserved.
