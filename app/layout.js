@@ -25,7 +25,7 @@ const dmSerifDisplay = DM_Serif_Display({
 });
 
 export const metadata = {
-  title: "Uswa Khan | GoHighLevel & n8n Automation Specialist",
+  title: "Uswa Khan | Full-Stack Developer & AI Builder",
   description:
     "Automation specialist helping businesses streamline operations through CRM automation, lead management, and workflow integrations using GoHighLevel and n8n.",
   keywords: [
