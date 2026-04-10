@@ -4,9 +4,9 @@
 const services = [
   {
     number: "01",
-    title: "CRM Setup & Configuration",
+    title: "Full-Stack Web Development",
     description:
-      "Complete CRM setup and configuration using GoHighLevel to help businesses organize leads, manage contacts, and track sales opportunities. This includes pipeline setup, contact management, tags, and custom fields so your team can manage customers efficiently from day one.",
+      "End-to-end web application development using Next.js, React, and FastAPI. I handle everything from database architecture to responsive frontend UI — delivering production-ready products built to scale.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.325.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 0 1 1.37.49l1.296 2.247a1.125 1.125 0 0 1-.26 1.431l-1.003.827c-.293.241-.438.613-.43.992a7.723 7.723 0 0 1 0 .255c-.008.378.137.75.43.991l1.004.827c.424.35.534.955.26 1.43l-1.298 2.247a1.125 1.125 0 0 1-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.47 6.47 0 0 1-.22.128c-.331.183-.581.495-.644.869l-.213 1.281c-.09.543-.56.94-1.11.94h-2.594c-.55 0-1.019-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 0 1-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 0 1-1.369-.49l-1.297-2.247a1.125 1.125 0 0 1 .26-1.431l1.004-.827c.292-.24.437-.613.43-.991a6.932 6.932 0 0 1 0-.255c.007-.38-.138-.751-.43-.992l-1.004-.827a1.125 1.125 0 0 1-.26-1.43l1.297-2.247a1.125 1.125 0 0 1 1.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.086.22-.128.332-.183.582-.495.644-.869l.214-1.28Z" />
@@ -16,9 +16,9 @@ const services = [
   },
   {
     number: "02",
-    title: "Workflow Automation",
+    title: "AI Integration & Development",
     description:
-      " Custom workflow automation designed to eliminate repetitive tasks and improve efficiency. Using n8n and GoHighLevel, I create automated systems for lead capture, follow-up sequences, appointment reminders, and internal notifications.",
+      "Integrate large language models like Claude into your existing product or build AI-native features from scratch — recommendation engines, intelligent alerts, and automated analysis that adds real value.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
@@ -27,9 +27,9 @@ const services = [
   },
   {
     number: "03",
-    title: "Business Tool Integrations",
+    title: "Backend API Development",
     description:
-      "Seamless integration between business tools to create efficient automated systems. Using n8n, I connect platforms like Slack, Notion, and Google Sheets so data flows automatically between applications without manual work.",
+      "Fast, secure, and scalable REST APIs built with FastAPI and Python. Database design with PostgreSQL and Supabase, authentication, and third-party integrations handled cleanly and efficiently.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
@@ -38,9 +38,9 @@ const services = [
   },
   {
     number: "04",
-    title: "Lead Capture & Follow-Up Automation",
+    title: "Custom Software for Businesses",
     description:
-      "Automated lead capture and follow-up systems designed to ensure no potential customer is missed. Using GoHighLevel, I create workflows that capture leads from forms, organize them in CRM pipelines, and trigger automated emails, messages, or reminders.",
+      "Got a business problem that needs a custom-built solution? I scope, design, and ship software tailored to your exact needs — on time and production-ready from day one.",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
@@ -64,10 +64,10 @@ export default function ServicesSection() {
             className="text-4xl sm:text-5xl text-gray-900 leading-tight tracking-tight mb-4"
             style={{ fontFamily: "'DM Serif Display', serif" }}
           >
-            Automation Services for <em className="text-violet-700">Modern Businesses</em>
+            Services for <em className="text-violet-700">Modern Businesses</em>
           </h2>
           <p className="text-lg text-gray-500 font-light max-w-xl mx-auto">
-            I help businesses automate workflows, manage leads more effectively, and streamline daily operations through powerful CRM and workflow automation solutions using modern tools.
+            I help businesses design and build powerful web applications and AI-powered tools — from full-stack product development to intelligent automation that saves time and drives growth.
           </p>
         </div>
 

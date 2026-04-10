@@ -77,7 +77,7 @@ export default function ContactSection() {
             Let&apos;s Build Something <em className="text-violet-700">Awesome</em> Together
           </h2>
           <p className="text-lg text-gray-500 font-light leading-relaxed max-w-2xl mx-auto">
-            I&apos;m always happy to connect! Whether you want to automate your business workflows, integrate tools, or just discuss a project, feel free to reach out.
+            I&apos;m always happy to connect! Whether you want to build a web application, integrate AI into your product, or just discuss a project idea — feel free to reach out.
           </p>
         </div>
 

@@ -17,15 +17,15 @@ export default function AboutSection() {
           className="text-4xl sm:text-5xl text-gray-900 leading-tight tracking-tight mb-10"
           style={{ fontFamily: "'DM Serif Display', serif" }}
         >
-          Passionate About Building <em className="text-violet-700">Smarter Automation Systems </em>
+          Passionate About Building <em className="text-violet-700">Real Products with Code &amp; AI</em>
         </h2>
 
         {/* Bio */}
         <p className="text-xl text-gray-500 font-light leading-relaxed mb-6">
-          I&apos;m <span className="text-gray-900 font-medium">Uswa Khan</span>, a Computer Science student with a strong interest in automation and modern business technologies. I enjoy building systems that reduce manual work and simplify business processes.
+          I&apos;m <span className="text-gray-900 font-medium">Uswa Khan</span>, a Computer Science student at the University of Engineering &amp; Technology, Lahore, with a strong passion for building full-stack web applications and AI-powered products.
         </p>
         <p className="text-xl text-gray-500 font-light leading-relaxed mb-12">
-          My focus is on <span className="text-gray-900 font-medium">CRM automation and workflow integrations</span> using tools like GoHighLevel and n8n to help businesses capture leads, automate follow-ups, and streamline operations.
+          I enjoy taking an idea from zero to a fully shipped product — handling everything from database design and backend APIs to frontend UI and AI integrations. I believe the best software solves real problems for real people.
         </p>
 
         {/* Divider */}
@@ -46,8 +46,8 @@ export default function AboutSection() {
           {/* Specialisation */}
           <div className="flex flex-col items-center">
             <p className="text-sm text-gray-700 font-bold uppercase tracking-widest mb-2">Specialisation</p>
-            <p className="text-lg text-gray-900 font-medium">CRM & Workflow Automation</p>
-            <p className="text-base text-gray-600">GoHighLevel · N8N · Notion · Slack</p>
+            <p className="text-lg text-gray-900 font-medium">Full-Stack Development & AI Integration</p>
+            <p className="text-base text-gray-600">Python · FastAPI · Next.js · React.js · Claude AI</p>
           </div>
 
         </div>
@@ -57,7 +57,7 @@ export default function AboutSection() {
           href="https://www.linkedin.com/in/uswakhan386"
           className="inline-flex items-center gap-2 bg-violet-700 hover:bg-violet-800 text-white text-base font-medium px-8 py-3.5 rounded-full transition-all duration-200 shadow-md shadow-violet-200 hover:shadow-violet-300 hover:-translate-y-0.5 no-underline"
         >
-          Conatct Me →
+          Contact Me →
         </a>
 
       </div>

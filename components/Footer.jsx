@@ -31,7 +31,7 @@ export default function Footer() {
               Uswa<span className="text-violet-400">.</span>
             </span>
             <p className="text-violet-200 font-light leading-relaxed mt-3 max-w-sm">
-              CRM & Workflow Automation Specialist helping businesses streamline operations, manage leads, and scale faster using GoHighLevel and N8N.
+              Full-Stack Developer & AI Builder helping businesses design, build, and ship production-ready web applications and AI-powered products.
             </p>
             {/* Social icons */}
             <div className="flex items-center gap-3 mt-6 relative">
@@ -117,7 +117,7 @@ export default function Footer() {
 
         {/* SEO text */}
         <p className="text-center text-violet-300 text-xs font-light mb-6 tracking-wide">
-          CRM & Workflow Automation Specialist · GoHighLevel & N8N Automation · Automation Portfolio
+          Full-Stack Developer & AI Builder · Python · React.js · Next.js · FastAPI · Claude AI
         </p>
 
         {/* Bottom row */}

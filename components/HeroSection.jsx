@@ -139,7 +139,7 @@ export default function HeroSection() {
         {/* Tagline badge */}
         <div className="inline-flex items-center gap-2 bg-white text-violet-700 text-sm font-medium tracking-wider px-5 py-2 rounded-full border border-violet-200 mb-8 shadow-sm">
           <span className="w-2 h-2 rounded-full bg-violet-500 inline-block" />
-          CRM &amp; Workflow Automation Specialist
+          Full-Stack Developer &amp; AI Builder
         </div>
 
         {/* Name */}
@@ -158,12 +158,12 @@ export default function HeroSection() {
 
         {/* Subtitle */}
         <p className="text-xl sm:text-2xl text-gray-500 font-light mb-6 max-w-xl">
-          Automation Specialist | CRM & Workflow Automation
+          Full-Stack Developer | AI-Powered Products
         </p>
 
         {/* Bio */}
         <p className="text-lg sm:text-xl text-gray-500 font-light leading-relaxed mb-10 max-w-2xl">
-          I help businesses streamline operations through powerful CRM and workflow automation. Using tools like <span className="text-gray-800 font-medium">GHL &amp; N8N</span>, I design automated systems that capture leads, send follow-ups, and connect business tools to save time and improve efficiency.
+          I build and ship full-stack web applications powered by AI. From scalable backends to pixel-perfect frontends, I turn complex ideas into real, production-ready products that solve real business problems.
         </p>
 
         {/* CTAs */}
@@ -185,65 +185,82 @@ export default function HeroSection() {
         {/* Divider */}
         <div className="flex items-center gap-4 w-full max-w-2xl mb-8">
           <div className="flex-1 h-px bg-violet-200" />
-          <span className="text-xs text-gray-400 uppercase tracking-widest font-medium whitespace-nowrap">Automation Tools & Platforms</span>
+          <span className="text-xs text-gray-400 uppercase tracking-widest font-medium whitespace-nowrap">Tools & Platforms</span>
           <div className="flex-1 h-px bg-violet-200" />
         </div>
 
         {/* Tool pills */}
         <div className="flex items-center justify-center gap-4 flex-wrap">
 
-          {/* GHL */}
+          {/* Python */}
           <div className="flex items-center gap-3 bg-white border border-violet-100 rounded-2xl px-5 py-3 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
-            <div className="w-8 h-8 rounded-lg bg-orange-500 flex items-center justify-center flex-shrink-0">
-              <span className="text-white text-[10px] font-bold">GHL</span>
+            <div className="w-8 h-8 rounded-lg bg-[#3776AB] flex items-center justify-center flex-shrink-0">
+              <svg className="w-5 h-5" viewBox="0 0 256 255" xmlns="http://www.w3.org/2000/svg">
+                <path d="M126.916.072c-64.832 0-60.784 28.115-60.784 28.115l.072 29.128h61.868v8.745H41.631S.145 61.355.145 126.77c0 65.417 36.21 63.097 36.21 63.097h21.61v-30.356s-1.165-36.21 35.632-36.21h61.362s34.475.557 34.475-33.319V33.97S194.67.072 126.916.072zM92.802 19.66a11.12 11.12 0 0 1 11.13 11.13 11.12 11.12 0 0 1-11.13 11.13 11.12 11.12 0 0 1-11.13-11.13 11.12 11.12 0 0 1 11.13-11.13z" fill="#fff"/>
+                <path d="M128.757 254.126c64.832 0 60.784-28.115 60.784-28.115l-.072-29.127H127.6v-8.745h86.441s41.486 4.705 41.486-60.712c0-65.416-36.21-63.096-36.21-63.096h-21.61v30.355s1.165 36.21-35.632 36.21h-61.362s-34.475-.557-34.475 33.32v56.013s-5.235 33.897 62.518 33.897zm34.114-19.586a11.12 11.12 0 0 1-11.13-11.13 11.12 11.12 0 0 1 11.13-11.131 11.12 11.12 0 0 1 11.13 11.13 11.12 11.12 0 0 1-11.13 11.13z" fill="#fff"/>
+              </svg>
             </div>
-            <span className="text-base text-gray-700 font-medium">GoHighLevel</span>
+            <span className="text-base text-gray-700 font-medium">Python</span>
           </div>
 
-          {/* N8N */}
+          {/* React.js */}
           <div className="flex items-center gap-3 bg-white border border-violet-100 rounded-2xl px-5 py-3 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
-            <div className="w-8 h-8 rounded-lg bg-[#ea4b71] flex items-center justify-center flex-shrink-0">
-              <span className="text-white text-[11px] font-bold">n8n</span>
+            <div className="w-8 h-8 rounded-lg bg-[#20232a] flex items-center justify-center flex-shrink-0">
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="#61DAFB" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="2.139"/>
+                <path fill="none" stroke="#61DAFB" strokeWidth="1" d="M12 6.042c3.858 0 7.26.78 9.403 1.998C23.542 9.258 24.5 10.632 24.5 12s-.958 2.742-3.097 3.96C19.26 17.178 15.858 17.958 12 17.958s-7.26-.78-9.403-1.998C.358 14.742-.6 13.368-.6 12s.958-2.742 3.097-3.96C4.74 6.822 8.142 6.042 12 6.042z" transform="rotate(0 12 12)"/>
+                <path fill="none" stroke="#61DAFB" strokeWidth="1" d="M12 6.042c3.858 0 7.26.78 9.403 1.998C23.542 9.258 24.5 10.632 24.5 12s-.958 2.742-3.097 3.96C19.26 17.178 15.858 17.958 12 17.958s-7.26-.78-9.403-1.998C.358 14.742-.6 13.368-.6 12s.958-2.742 3.097-3.96C4.74 6.822 8.142 6.042 12 6.042z" transform="rotate(60 12 12)"/>
+                <path fill="none" stroke="#61DAFB" strokeWidth="1" d="M12 6.042c3.858 0 7.26.78 9.403 1.998C23.542 9.258 24.5 10.632 24.5 12s-.958 2.742-3.097 3.96C19.26 17.178 15.858 17.958 12 17.958s-7.26-.78-9.403-1.998C.358 14.742-.6 13.368-.6 12s.958-2.742 3.097-3.96C4.74 6.822 8.142 6.042 12 6.042z" transform="rotate(120 12 12)"/>
+              </svg>
             </div>
-            <span className="text-base text-gray-700 font-medium">N8N</span>
+            <span className="text-base text-gray-700 font-medium">React.js</span>
           </div>
 
-          {/* Notion */}
+          {/* Next.js */}
           <div className="flex items-center gap-3 bg-white border border-violet-100 rounded-2xl px-5 py-3 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
             <div className="w-8 h-8 rounded-lg bg-gray-900 flex items-center justify-center flex-shrink-0">
-              <span className="text-white text-[13px] font-bold">N</span>
-            </div>
-            <span className="text-base text-gray-700 font-medium">Notion</span>
-          </div>
-
-          {/* Slack */}
-          <div className="flex items-center gap-3 bg-white border border-violet-100 rounded-2xl px-5 py-3 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
-            <div className="w-8 h-8 rounded-lg bg-[#4a154b] flex items-center justify-center flex-shrink-0">
-              <svg className="w-4 h-4" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M5.042 15.165a2.528 2.528 0 0 1-2.52 2.523A2.528 2.528 0 0 1 0 15.165a2.527 2.527 0 0 1 2.522-2.52h2.52v2.52zm1.271 0a2.527 2.527 0 0 1 2.521-2.52 2.527 2.527 0 0 1 2.521 2.52v6.313A2.528 2.528 0 0 1 8.834 24a2.528 2.528 0 0 1-2.521-2.522v-6.313zM8.834 5.042a2.528 2.528 0 0 1-2.521-2.52A2.528 2.528 0 0 1 8.834 0a2.528 2.528 0 0 1 2.521 2.522v2.52H8.834zm0 1.271a2.528 2.528 0 0 1 2.521 2.521 2.528 2.528 0 0 1-2.521 2.521H2.522A2.528 2.528 0 0 1 0 8.834a2.528 2.528 0 0 1 2.522-2.521h6.312zm10.122 2.521a2.528 2.528 0 0 1 2.522-2.521A2.528 2.528 0 0 1 24 8.834a2.528 2.528 0 0 1-2.522 2.521h-2.522V8.834zm-1.268 0a2.528 2.528 0 0 1-2.523 2.521 2.527 2.527 0 0 1-2.52-2.521V2.522A2.527 2.527 0 0 1 15.165 0a2.528 2.528 0 0 1 2.523 2.522v6.312zm-2.523 10.122a2.528 2.528 0 0 1 2.523 2.522A2.528 2.528 0 0 1 15.165 24a2.527 2.527 0 0 1-2.52-2.522v-2.522h2.52zm0-1.268a2.527 2.527 0 0 1-2.52-2.523 2.526 2.526 0 0 1 2.52-2.52h6.313A2.527 2.527 0 0 1 24 15.165a2.528 2.528 0 0 1-2.522 2.523h-6.313z"/>
+              <svg className="w-5 h-5" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+                <mask id="nMask" x="0" y="0" maskUnits="userSpaceOnUse" style={{maskType: "alpha"}}>
+                  <circle cx="90" cy="90" r="90" fill="white"/>
+                </mask>
+                <g mask="url(#nMask)">
+                  <path d="M149.508 157.52L69.142 54H54V125.97H66.116V69.384L139.999 164.845C143.396 162.614 146.568 160.165 149.508 157.52Z" fill="url(#nGrad1)"/>
+                  <rect x="115" y="54" width="12" height="72" fill="url(#nGrad2)"/>
+                </g>
+                <defs>
+                  <linearGradient id="nGrad1" x1="109" y1="116.5" x2="144.5" y2="160.5" gradientUnits="userSpaceOnUse">
+                    <stop stopColor="white"/><stop offset="1" stopColor="white" stopOpacity="0"/>
+                  </linearGradient>
+                  <linearGradient id="nGrad2" x1="121" y1="54" x2="120.799" y2="106.875" gradientUnits="userSpaceOnUse">
+                    <stop stopColor="white"/><stop offset="1" stopColor="white" stopOpacity="0"/>
+                  </linearGradient>
+                </defs>
               </svg>
             </div>
-            <span className="text-base text-gray-700 font-medium">Slack</span>
+            <span className="text-base text-gray-700 font-medium">Next.js</span>
           </div>
 
-          {/* Google Sheets */}
+          {/* Claude Code */}
           <div className="flex items-center gap-3 bg-white border border-violet-100 rounded-2xl px-5 py-3 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
-            <div className="w-8 h-8 rounded-lg bg-[#0f9d58] flex items-center justify-center flex-shrink-0">
-              <svg className="w-4 h-4" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                <path d="M19.186 0H4.814C2.155 0 0 2.155 0 4.814v14.372C0 21.845 2.155 24 4.814 24h14.372C21.845 24 24 21.845 24 19.186V4.814C24 2.155 21.845 0 19.186 0zM9.6 18H6V6h3.6v12zm8.4 0H12V6h6v12z"/>
+            <div className="w-8 h-8 rounded-lg bg-[#D97757] flex items-center justify-center flex-shrink-0">
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 17l6-5-6-5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M12 19h8" stroke="white" strokeWidth="2" strokeLinecap="round"/>
               </svg>
             </div>
-            <span className="text-base text-gray-700 font-medium">Google Sheets</span>
+            <span className="text-base text-gray-700 font-medium">Claude Code</span>
           </div>
 
-          {/* Gmail */}
+          {/* Opencode */}
           <div className="flex items-center gap-3 bg-white border border-violet-100 rounded-2xl px-5 py-3 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
-            <div className="w-8 h-8 rounded-lg bg-white border border-gray-200 flex items-center justify-center flex-shrink-0">
-              <svg className="w-5 h-5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.910 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" fill="#EA4335"/>
+            <div className="w-8 h-8 rounded-lg bg-violet-600 flex items-center justify-center flex-shrink-0">
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 18l6-6-6-6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M8 6l-6 6 6 6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M14.5 4l-5 16" stroke="white" strokeWidth="2" strokeLinecap="round"/>
               </svg>
             </div>
-            <span className="text-base text-gray-700 font-medium">Gmail</span>
+            <span className="text-base text-gray-700 font-medium">Opencode</span>
           </div>
 
         </div>

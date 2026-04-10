@@ -3,38 +3,38 @@
 
 const skills = [
   {
-    title: "GoHighLevel",
-    description: "Expertise in setting up and configuring CRM systems including pipelines, contact management, tags, custom fields, and automated workflows. I also create campaigns and lead management systems that help businesses organize and nurture their customers effectively.",
+    title: "Frontend Development",
+    description: "Building fast, responsive, and visually polished interfaces using React.js and Next.js. I implement Tailwind CSS for clean, consistent styling and Framer Motion for smooth animations and page transitions.",
     icon: (
       <svg className="w-7 h-7" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z" />
       </svg>
     ),
   },
   {
-    title: "N8N",
-    description: "Building advanced workflow automation and integrations using n8n. I design multi-step workflows that connect different tools, automate repetitive tasks, and ensure data flows seamlessly across business systems.",
+    title: "Backend Development",
+    description: "Designing and building production-grade REST APIs with FastAPI and Python. Database modelling with PostgreSQL and Supabase, Alembic migrations, and JWT-based authentication for secure, scalable systems.",
     icon: (
       <svg className="w-7 h-7" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125v-3.75" />
       </svg>
     ),
   },
   {
-    title: "API Integrations",
-    description: "Building integrations between different applications using APIs to automate data exchange and streamline business processes. This enables seamless communication between CRM systems, workflow tools, and business platforms.",
+    title: "AI & LLM Integration",
+    description: "Integrating Claude AI and other large language models into real products. I build intelligent recommendation systems, automated insight engines, and AI-powered features that go beyond simple chatbots.",
+    icon: (
+      <svg className="w-7 h-7" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 0 0-2.455 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
+      </svg>
+    ),
+  },
+  {
+    title: "Dev Tools & Workflow",
+    description: "Managing codebases with Git and GitHub, building with AI-assisted tools like Claude Code and Opencode, and following the BMAD spec-driven development method for structured, high-quality software delivery.",
     icon: (
       <svg className="w-7 h-7" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
-      </svg>
-    ),
-  },
-  {
-    title: "Business Tool Integrations",
-    description: "Connecting tools like Slack, Notion, and Google Sheets to automate notifications, synchronize data, and improve collaboration across teams.",
-    icon: (
-      <svg className="w-7 h-7" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
       </svg>
     ),
   },
@@ -62,10 +62,10 @@ export default function SkillsSection() {
             className="text-4xl sm:text-5xl text-gray-900 leading-tight tracking-tight mb-4"
             style={{ fontFamily: "'DM Serif Display', serif" }}
           >
-            Automation Tools & <em className="text-violet-700">Expertise</em>
+            My Tech <em className="text-violet-700">Stack</em>
           </h2>
           <p className="text-lg text-gray-500 font-light max-w-xl mx-auto">
-            The tools and technologies I use to design efficient CRM systems and build powerful workflow automation solutions that help businesses streamline operations and improve productivity.
+            The tools and technologies I use to build full-stack web applications, integrate AI, and ship production-ready products that solve real business problems.
           </p>
         </div>
 
