@@ -1,7 +1,7 @@
 # Uswa Khan — Portfolio Website
 
 A personal portfolio website for **Uswa Khan**, a Full-Stack Developer & AI Builder.  
-Live Site: [http://18.171.243.249](http://18.171.243.249)
+Live Site: [https://portfolio-uswakhans-projects.vercel.app/](https://portfolio-uswakhans-projects.vercel.app/)
 
 ---
 
