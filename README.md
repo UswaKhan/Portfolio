@@ -28,7 +28,7 @@ I'm Uswa Khan, a Computer Science student at **UET Lahore** with a strong passio
 | Backend | Python, FastAPI, PostgreSQL, Supabase |
 | AI | Claude AI |
 | Dev Tools | Git, GitHub, Claude Code, Opencode |
-| Deployment | AWS EC2 |
+| Deployment | Vercel |
 
 ---
 
