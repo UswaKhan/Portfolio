@@ -1,37 +1,38 @@
 # Uswa Khan — Portfolio Website
 
-A personal portfolio website for **Uswa Khan**, a CRM & Workflow Automation Specialist.  
-🔗 **Live Site:** [http://18.171.243.249](http://18.171.243.249)
+A personal portfolio website for **Uswa Khan**, a Full-Stack Developer & AI Builder.  
+Live Site: [http://18.171.243.249](http://18.171.243.249)
 
 ---
 
-## 👩‍💻 About
+## About
 
-I'm Uswa Khan, a Computer Science student at **UET Lahore** specializing in CRM automation and workflow integrations. I help businesses streamline operations, capture leads, automate follow-ups, and connect tools — using **GoHighLevel** and **n8n**.
-
----
-
-## 🚀 Services
-
-- **CRM Setup & Configuration** — GoHighLevel pipelines, contact management, tags & custom fields
-- **Workflow Automation** — Automated lead capture, follow-ups, reminders using n8n & GHL
-- **Business Tool Integrations** — Connecting Slack, Notion, Google Sheets via n8n
-- **Lead Capture & Follow-Up Automation** — End-to-end lead management systems
+I'm Uswa Khan, a Computer Science student at **UET Lahore** with a strong passion for building full-stack web applications and AI-powered products. I enjoy taking an idea from zero to a fully shipped product — handling everything from database design and backend APIs to frontend UI and AI integrations.
 
 ---
 
-## 🛠 Tech Stack
+## Services
+
+- **Full-Stack Web Development** — End-to-end web apps using Next.js, React, and FastAPI
+- **AI Integration & Development** — LLM-powered features, recommendation engines, and automated analysis
+- **Backend API Development** — REST APIs with FastAPI, PostgreSQL, Supabase, and JWT auth
+- **Custom Software for Businesses** — Tailored solutions scoped, designed, and shipped production-ready
+
+---
+
+## Tech Stack
 
 | Category | Tools |
 |---|---|
-| CRM & Automation | GoHighLevel, n8n |
-| Integrations | Slack, Notion, Google Sheets, Gmail |
-| Frontend | Next.js, Tailwind CSS |
+| Frontend | React.js, Next.js, Tailwind CSS |
+| Backend | Python, FastAPI, PostgreSQL, Supabase |
+| AI | Claude AI |
+| Dev Tools | Git, GitHub, Claude Code, Opencode |
 | Deployment | AWS EC2 |
 
 ---
 
-## 📦 Running Locally
+## Running Locally
 
 ```bash
 git clone https://github.com/UswaKhan/Portfolio.git
@@ -44,7 +45,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 📬 Contact
+## Contact
 
 - **Email:** uswalohani386@gmail.com  
 - **LinkedIn:** [linkedin.com/in/uswakhan386](https://www.linkedin.com/in/uswakhan386)  
